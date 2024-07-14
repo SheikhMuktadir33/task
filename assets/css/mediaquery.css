@@ -1,0 +1,633 @@
+@media (max-width: 991px) {
+  .navbar-toggler {
+    position: relative !important;
+    z-index: 100000 !important;
+    background-color: transparent !important;
+    border: 0px !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  .navbar-collapse {
+    background-color: #0f0f0f !important;
+    padding: 20px 10px !important;
+    transform-origin: top !important;
+    transition: 300ms cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    border-bottom: 1.2px solid #09d2f4;
+  }
+
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .navigation li .nav-link::before {
+    height: 0px !important;
+    background-color: transparent !important;
+  }
+
+  .toggle {
+    position: relative !important;
+    width: 45px !important;
+    height: 45px !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+  }
+
+  .toggle span {
+    position: absolute !important;
+    width: 35px !important;
+    height: 4px !important;
+    background: #09d2f4 !important;
+    border-radius: 10px !important;
+    transition: 0.5s !important;
+  }
+
+  .navigation .active {
+    border-bottom: none !important;
+  }
+
+  .toggle span:nth-child(1) {
+    transform: translateY(-15px) !important;
+    width: 50px !important;
+    left: 15px !important;
+  }
+
+  .toggle.active span:nth-child(1) {
+    width: 35px !important;
+    transform: translateY(0) rotate(45deg) !important;
+    transition-delay: 0.125s !important;
+  }
+
+  .toggle span:nth-child(2) {
+    transform: translateY(15px) !important;
+    width: 15px !important;
+    left: 15px !important;
+  }
+
+  .toggle.active span:nth-child(2) {
+    width: 35px !important;
+    transform: translateY(0) rotate(315deg) !important;
+    transition-delay: 0.25s !important;
+  }
+
+  .toggle.active span:nth-child(3) {
+    transform: translateX(60px) !important;
+  }
+
+  .navigation li {
+    padding: 0 0 20px 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .hero-btn-outer img {
+    display: none !important;
+  }
+
+  br {
+    display: none !important;
+  }
+  .hero-txt-part h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-txt-part h1 svg {
+    left: 5% !important;
+  }
+
+  .hero-btn1 {
+    padding: 12px !important;
+  }
+
+  .hero-btn-outer {
+    margin-bottom: 10px !important;
+  }
+
+  .hero-btn2 {
+    padding: 12px !important;
+  }
+
+  .hero-btn-area {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .hero-img2-outer {
+    display: none !important;
+  }
+
+  .hero-img3-outer {
+    display: none !important;
+  }
+
+  .hero-img-part {
+    margin-top: 120px !important;
+  }
+
+  .about-section {
+    margin-top: 150px !important;
+  }
+
+  .about-img1 {
+    max-width: 100% !important;
+  }
+
+  .about-img2 {
+    display: none !important;
+  }
+
+  .about-experience-card-part {
+    position: absolute;
+    left: -0px !important;
+    top: 10px !important;
+  }
+
+  .about-experience-card {
+    padding: 10px !important;
+  }
+
+  .about-txt-part {
+    margin-top: 50px !important;
+    padding-left: 0px !important;
+  }
+
+  .about-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .about-txt-part h1 {
+    font-size: 2rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .about-txt-part p {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .about-btn-area {
+    padding-top: 10px !important;
+  }
+
+  .about-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .about-experience-txt span:nth-child(1) {
+    font-size: 30px !important;
+  }
+
+  .about-experience-txt span:nth-child(2) {
+    font-size: 30px !important;
+  }
+
+  .about-experience-txt span:nth-child(3) {
+    font-size: 30px !important;
+  }
+
+  .service-section {
+    margin-top: 50px !important;
+    padding: 60px 0 !important;
+  }
+
+  .side-heading h6 {
+    font-size: 25px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .side-heading h1 {
+    font-size: 2rem;
+  }
+
+  .side-heading h1::before {
+    left: 35px !important;
+    top: 20px !important;
+  }
+
+  .service-card {
+    margin-top: 40px !important;
+  }
+
+  .service-card h2 {
+    font-size: 25px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .service-card .service-card-btn {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .service-card .service-card-btn img {
+    max-width: 30px !important;
+  }
+
+  .service-fade-img {
+    right: 100px !important;
+  }
+
+  .testimonial-section {
+    padding: 60px 0 !important;
+    margin-top: 50px !important;
+  }
+
+  .testimonial-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .testimonial-txt-part h1 {
+    font-size: 2rem !important;
+  }
+
+  .testimonial-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .testimonial-section .slider-testimonial .testimonial-card {
+    flex: 1 !important;
+    margin: 30px 10px 0 0 !important;
+  }
+
+  .contact-section {
+    margin-top: 50px !important;
+  }
+
+  .contact-form {
+    padding: 30px !important;
+  }
+
+  .contact-txt-part {
+    padding-top: 50px !important;
+    padding-left: 0px !important;
+  }
+
+  .contact-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .contact-txt-part h1 {
+    font-size: 2rem !important;
+  }
+
+  .contact-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .map-section {
+    margin-top: 50px !important;
+  }
+
+  .footer-newsletter {
+    display: flex;
+  }
+
+  footer {
+    padding: 60px 0 20px !important;
+  }
+
+  .footer-heading {
+    margin-top: 30px !important;
+  }
+
+  .Subscribe-btn {
+    margin-left: 5px !important;
+  }
+
+  .Newsletter-input.form-control {
+    margin-right: 5px !important;
+  }
+
+  footer hr {
+    margin-top: 50px !important;
+  }
+
+  .Copyright {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+
+  .job-listings-section {
+    margin-top: 50px !important;
+  }
+
+  .job-filter {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .job-filter li {
+    margin-bottom: 10px !important;
+  }
+
+  .job-listings-section .nav-pills .nav-link {
+    margin: 0 5px !important;
+  }
+
+  .flip-card {
+    padding: 20px 20px 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .hero-txt-part h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .hero-txt-part h1 svg {
+    left: 15% !important;
+  }
+
+  .hero-btn1 {
+    padding: 15px !important;
+  }
+
+  .hero-btn-outer {
+    margin-bottom: 10px !important;
+  }
+
+  .hero-btn2 {
+    padding: 15px !important;
+  }
+
+  .hero-btn-area {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .hero-img2-outer {
+    display: none !important;
+  }
+
+  .hero-img3-outer {
+    display: none !important;
+  }
+
+  .hero-img-part {
+    margin-top: 120px !important;
+  }
+
+  .about-section {
+    margin-top: 180px !important;
+  }
+
+  .about-img1 {
+    max-width: 90% !important;
+  }
+
+  .about-img2 {
+    left: 70px !important;
+    top: 280px !important;
+  }
+
+  .about-experience-card-part {
+    position: absolute;
+    left: -5px !important;
+    top: 10px !important;
+  }
+
+  .about-experience-card {
+    padding: 10px !important;
+  }
+
+  .about-txt-part {
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .about-txt-part h6 {
+    font-size: 25px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .about-txt-part h1 {
+    font-size: 2rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .about-txt-part p {
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .about-txt-part li {
+    font-size: 12px !important;
+  }
+
+  .about-btn-area {
+    padding-top: 10px !important;
+  }
+
+  .about-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .about-experience-txt span:nth-child(1) {
+    font-size: 30px !important;
+  }
+
+  .about-experience-txt span:nth-child(2) {
+    font-size: 30px !important;
+  }
+
+  .about-experience-txt span:nth-child(3) {
+    font-size: 30px !important;
+  }
+
+  .service-section {
+    margin-top: 80px !important;
+    padding: 60px 0 !important;
+  }
+
+  .side-heading h6 {
+    font-size: 25px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .side-heading h1 {
+    font-size: 2rem;
+  }
+
+  .side-heading h1::before {
+    left: 25px !important;
+    top: 20px !important;
+  }
+
+  .service-card {
+    margin-top: 40px !important;
+  }
+
+  .service-card h2 {
+    font-size: 25px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .service-card .service-card-btn {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .service-card .service-card-btn img {
+    max-width: 30px !important;
+  }
+
+  .service-fade-img {
+    right: 80px !important;
+  }
+
+  .service-card p {
+    font-size: 16px !important;
+  }
+
+  .testimonial-section {
+    padding: 60px 0 !important;
+    margin-top: 80px !important;
+  }
+
+  .testimonial-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .testimonial-txt-part h1 {
+    font-size: 2rem !important;
+  }
+
+  .testimonial-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .testimonial-section .slider-testimonial .testimonial-card {
+    flex: 1 !important;
+    margin: 30px 30px 0 0 !important;
+  }
+
+  .contact-section {
+    margin-top: 80px !important;
+  }
+
+  .contact-form {
+    padding: 30px !important;
+  }
+
+  .contact-txt-part {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .contact-txt-part h6 {
+    font-size: 25px !important;
+  }
+
+  .contact-txt-part h1 {
+    font-size: 2rem !important;
+  }
+
+  .contact-txt-part h1::before {
+    top: 20px !important;
+  }
+
+  .map-section {
+    margin-top: 80px !important;
+  }
+
+  footer {
+    padding: 60px 0 20px !important;
+  }
+
+  footer hr {
+    margin-top: 50px !important;
+  }
+
+  .Copyright {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+
+  .footer-social button {
+    margin-bottom: 5px !important;
+    margin-right: 2px !important;
+  }
+
+  .job-listings-section {
+    margin-top: 80px !important;
+  }
+
+  .job-filter {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .flip-card-body li {
+    font-size: 15px !important;
+  }
+
+  .flip-card {
+    padding: 30px 30px 15px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero-img2-outer {
+    left: 215px !important;
+  }
+
+  .hero-img3-outer {
+    right: 215px !important;
+  }
+
+  .about-img2 {
+    left: 120px !important;
+  }
+
+  .about-txt-part h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .side-heading h1::before {
+    left: 35px !important;
+  }
+
+  .testimonial-txt-part h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .testimonial-section .slider-testimonial .testimonial-card {
+    flex: 1 !important;
+    margin: 0 10px !important;
+  }
+
+  .contact-txt-part h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .about-experience-card-part {
+    left: -20px !important;
+  }
+
+  .flip-card {
+    padding: 30px 30px 15px !important;
+  }
+
+  .company-details span:first-child {
+    width: 140px !important;
+  }
+}
